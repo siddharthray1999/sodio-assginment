@@ -37,7 +37,7 @@ const UserList = () => {
     <div className="">
       <h2 className="text-2xl font-bold mb-4 text-center">Data of UserList</h2>
 
-      <div className="flex justify-center gap-2 pb-4">
+      <div className="flex lg:justify-center items-center lg:flex-row flex-col gap-2 pb-4">
         <input
           className="border h-[40px] w-[300px] rounded pl-2"
           placeholder="Search by name"
